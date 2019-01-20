@@ -1,0 +1,16 @@
+
+<ion-content padding-top>
+
+     <img src="../../assets/images/login_logo.png" alt="Logo" />
+     <br>
+     <label input-lbl>Kullanıcı Adınız</label>
+     
+     <input input-box  [(ngModel)]="username" placeholder="Kullanıcı adınızı giriniz">
+     <label input-lbl>Şifreniz</label>
+
+     <input type="password"  input-box [(ngModel)]="password"  placeholder="Şifrenizi giriniz">
+     <br>
+     <button ion-button  btn="raised" color="red"  (click)="login()">
+       Gİrİş Yap
+     </button>
+</ion-content>

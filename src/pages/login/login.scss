@@ -1,0 +1,61 @@
+page-login {
+    
+
+        ion-content{
+          
+            background-color: #e0d20db2 !important;           
+            text-align: center;
+        }
+        [btn] {
+            
+            display: block;
+            position: relative;
+            width: 60%;
+            margin-left: 20% !important;
+            margin: 0 0 2rem;
+            padding: 0.8rem;
+            border: 0;
+            outline: 0;
+            border-radius: 0.125em;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            background: #cfcfcf;
+            color: #333;
+          }
+          [btn][btn~="raised"] {
+            box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.2), 0 0.2em 0.2em rgba(0, 0, 0, 0.2);
+          }
+          [btn][btn~="raised"]:active {
+            box-shadow: 0 0 0.6em rgba(0, 0, 0, 0.2), 0 0.6em 0.6em rgba(0, 0, 0, 0.2);
+          }
+          [input-box]
+          {
+            padding: .75rem 0;
+            display: block;
+            width: 60%;
+            margin-left: 20% !important;
+            font-size: 1.5rem !important;
+            font-family: 'Avenir', sans-serif;
+            text-indent: .15rem;
+            border: none;
+            outline: none;
+            background: none;
+            border-bottom: 2px solid #eba91b;
+          }
+          [input-lbl]{
+            padding: .75rem 0;
+            display: block;
+            width: 60%;
+            margin-left: 20% !important;
+            font-size: 1.5rem !important;
+            font-family: 'Avenir', sans-serif;
+            text-indent: .15rem;
+            border: none;
+            outline: none;
+            background: none;
+          }
+        
+}
